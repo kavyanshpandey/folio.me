@@ -9,6 +9,8 @@
 4. Select branch (Main Default) ->
 5. Save
 
+live - https://kavyanshpandey.github.io/folio.me/
+
 
 <!-- Hosting on Netlify -->
 
