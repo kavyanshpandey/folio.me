@@ -190,7 +190,8 @@
 
         // making HTTP call
         var xhr = new XMLHttpRequest()
-        var url = "https://hooks.slack.com/services/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"
+        var url = "https://hooks.slack.com/services/T02PYMNTN4F/" + process.env.API_KEY;
+
         const message = {
           text:  `Hey, I am ${name}. My email is ${email}, here is my msg -> ${msg}`,
           channel: '#general'
